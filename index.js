@@ -511,7 +511,7 @@ diff_match_patch.prototype.diff_linesToChars_ = function(text1, text2) {
   return {chars1: chars1, chars2: chars2, lineArray: lineArray};
 };
 
-diff_match_patch.prototype.diff_linesToWords_ = function(text1, text2) {
+diff_match_patch.prototype.diff_wordsToChars_ = function(text1, text2) {
   var lineArray = [];  // e.g. lineArray[4] == 'Hello\n'
   var lineHash = {};   // e.g. lineHash['Hello\n'] == 4
 
